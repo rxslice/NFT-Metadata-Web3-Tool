@@ -1,0 +1,145 @@
+body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #2a2a2a;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #64ffda;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #ddd;
+    }
+
+    input[type="text"],
+    textarea,
+    select {
+      width: calc(100% - 16px);
+      padding: 12px;
+      border: 1px solid #444;
+      border-radius: 6px;
+      box-sizing: border-box;
+      background-color: #333;
+      color: #fff;
+      margin-bottom: 5px;
+    }
+
+    textarea {
+      height: 120px;
+    }
+
+    .attributes-container {
+      margin-top: 15px;
+    }
+
+    .attribute-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .attribute-row input {
+      flex: 1;
+    }
+
+    .error {
+      color: #ff6b6b;
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+
+    button {
+      background-color: #64ffda;
+      color: #1a1a1a;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-right: 10px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #42c9b2;
+    }
+
+    .dropzone {
+      border: 2px dashed #666;
+      border-radius: 8px;
+      padding: 25px;
+      text-align: center;
+      cursor: pointer;
+      margin-bottom: 20px;
+      background-color: #333;
+    }
+
+    .dropzone.dragover {
+      background-color: #444;
+    }
+
+    .dropzone p {
+      margin: 0;
+      color: #ddd;
+    }
+
+    .image-preview {
+      margin-top: 15px;
+      max-width: 100%;
+      max-height: 250px;
+      border-radius: 8px;
+    }
+
+    .metadata-preview {
+      margin-top: 30px;
+      border: 1px solid #444;
+      padding: 15px;
+      border-radius: 8px;
+      background-color: #333;
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 220px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -110px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
